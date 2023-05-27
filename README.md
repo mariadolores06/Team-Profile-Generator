@@ -20,7 +20,7 @@ Running "node index.js" invokes the application. The user will be prompted to ch
 
 Demo: https://drive.google.com/file/d/1UNoZoQzW16WBNbfja8Syh5FO2H3FCIgZ/view
 
-Final Output: 
+Final Output: https://github.com/mariadolores06/Team-Profile-Generator/blob/main/dist/team.html
 
 ## Tests
 
