@@ -4,8 +4,8 @@ const Intern = require("./lib/Intern.js");
 const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
-const OUTPUT_DIR = path.resolve(__dirname, "output");
-const outputPath = path.join(OUTPUT_DIR, "team.html");
+const DIST_DIR = path.resolve(__dirname, "dist");
+const distPath = path.join(DIST_DIR, "team.html");
 const generateTeam = require("./src/template.js")
 
 teamArray = [];
@@ -145,7 +145,7 @@ function addEngineer() {
 function htmlBuilder () {
     console.log("Team created!")
 
-    fs.writeFileSync(outputPath, generateTeam(teamArray), "UTF-8")
+    fs.writeFileSync(distPath, generateTeam(teamArray), "UTF-8")
 
 }
 
